@@ -1,21 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Register</title>
+<?php
 
-<!-- bootstrap -->
-<link href = "../style/css/bootstrap.min.css" rel = "stylesheet">
-<link rel="stylesheet" href="styles.css">
+    $connection = mysqli_connect('localhost','root','','book_db');
 
-</head>
+    if(isset($_POST['send'])){
+        $name = $_POST['name'];
+        $email = $_POST['email'];
+        $phone= $_POST['phone'];
+        $address = $_POST['address'];
+        $location = $_POST['location'];
+        $seats = $_POST['seats'];
+        $departure = $_POST['departure'];
 
-<body style="background-color: #777;" ;>
+        $_REQUEST = " insert into book_form(name, email, phone, address, location, seats, departure) 
+        values('$name','$email','$phone','$address','$location','$seats','$departure')";
 
-<div class="heading" style="backgroung:url(images/bus3.png) no-repeat">
+        mysqli_query($connection, $_REQUEST);
 
-</div>
+        header('location:book.php');
+    }else{
+        echo 'something went wrong try again';
+    }
 
-
-</body>
-</html>
+    ?>
