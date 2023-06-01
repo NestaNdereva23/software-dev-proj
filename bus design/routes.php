@@ -23,7 +23,7 @@
 
     <section class="header">
 
-    <a href="home.php" class="logo">Green Coach</a>
+    <a href="home.php" class="logo">Marcopolo Travels</a>
 
  <nav class="navbar">
     <a href="home.php">home</a> 
@@ -44,17 +44,17 @@
 
 <section class="routes">
 
- <h1 class="heading-title">available routes</h1> 
+ <h1 class="heading-title">Popular Bus Routes</h1> 
 
  <div class="box-container">
    
    <div class="box">
         <div class="image">
-            <img src="images/image1.jpg" alt="">
+            <img src="images/nai.jpg" alt="">
         </div>
         <div class="content">
             <h3>nairobi to mombasa</h3>
-            <p>Book your trip now at very affordable prices</p>
+            <p>Book your trip now for only <br><h3>ksh.1500</h3></br></p>
             <a href="book.php" class="btn">book now</a>
         </div>
 
@@ -62,11 +62,11 @@
 
   <div class="box">
         <div class="image">
-            <img src="images/image2.jpg" alt="">
+            <img src="images/mombasa.jpg" alt="">
         </div>
         <div class="content">
             <h3>mombasa to nairobi</h3>
-            <p>Book your trip now at very affordable prices</p>
+            <p>Book your trip now for only <br><h3>ksh.1300</h3><br></p>
             <a href="book.php" class="btn">book now</a>
         </div>
 
@@ -78,18 +78,18 @@
         </div>
         <div class="content">
             <h3>nairobi to naivasha</h3>
-            <p>Book your trip now at very affordable prices</p>
+            <p>Book your trip now for only <br><h3>ksh.800</h3></br></p>
             <a href="book.php" class="btn">book now</a>
         </div>
 
   </div>
   <div class="box">
         <div class="image">
-            <img src="images/image3.jpg" alt="">
+            <img src="images/nai.jpg" alt="">
         </div>
         <div class="content">
             <h3>naivasha to nairobi</h3>
-            <p>Book your trip now at very affordable prices</p>
+            <p>Book your trip now for only <br><h3>ksh.800</h3></br></p>
             <a href="book.php" class="btn">book now</a>
         </div>
 
@@ -106,6 +106,45 @@
 
 
 <!-- routes section ends -->
+
+<!-- footer section starts -->
+
+<section class="footer">
+    
+  <div class="box-container">
+
+    <div class="box">
+      <h3>quick links</h3>
+      <a href="home.php"> <i class="fas fa-angle-right"></i> home</a> 
+      <a href="routes.php"> <i class="fas fa-angle-right"></i>routes</a> 
+      <a href="about.php"> <i class="fas fa-angle-right"></i>about</a> 
+      <a href="book.php"> <i class="fas fa-angle-right"></i>book</a> 
+     
+    </div>
+
+    <div class="box">
+      <h3>extra links</h3>
+      <a href="#"> <i class="fas fa-angle-right"></i> ask questions</a>
+      <a href="#"> <i class="fas fa-angle-right"></i> about us</a>
+      <a href="#"> <i class="fas fa-angle-right"></i> privacy policy</a>
+      <a href="#"> <i class="fas fa-angle-right"></i> terms of use</a> 
+    </div>
+    
+    <div class="box">
+      <h3>contact info</h3>
+      <a href="#"> <i class="fas fa-phone"></i> +254-700-000-00</a>
+      <a href="#"> <i class="fas fa-envelope"></i>marcopolotravels@gmail.com</a>
+      <a href="#"> <i class="fas fa-map"></i> nairobi, kenya - 6780</a>
+    </div>
+
+    
+    </div>
+
+  </div>
+
+</section>
+
+<!-- footer section ends -->
 
 
 

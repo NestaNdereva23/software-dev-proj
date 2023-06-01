@@ -2,11 +2,12 @@
 
 
 :root{
-    --main-color:#9f6d0e;
+    --main-color:#392d16;
     --black:#222;
     --white:#fff;
     --green:#2d6411;
-    --lightblue:#100e0ecc;
+    --lightblue:#0a90fecc;
+    --hover-color:var(--green);
     --brown:#6c300d;
     --light-black:#777;
     --light-white:#fff9;
@@ -78,7 +79,7 @@ section{
     position: sticky;
     top: 0; left: 0; right: 0;
     z-index: 1000;
-    background-color: var(--lightblue);
+    background-color: var(--green);
     display: flex;
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -101,7 +102,7 @@ section{
 }
 
 .header .navbar a:hover{
-    color: var(--main-color);
+    color: var(--hover-color);
 }
 
 
@@ -111,6 +112,8 @@ section{
 .home{
     padding: 0;
 }
+
+
 
 
 
@@ -196,7 +199,7 @@ section{
     position: sticky;
     top: 0; left: 0; right: 0;
     z-index: 1000;
-    background-color: var(--lightblue);
+    background-color: var(--main-color);
     display: flex;
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -217,17 +220,8 @@ section{
 }
 
 .header .navbar a:hover{
-    color: var(--main-color);
+    color: var(--hover-color);
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -307,13 +301,13 @@ section{
 
 
 .routes{
-    background: var(--light-black);
+    background: var(--main-color);
 
 }
 
 .routes h1{
     color: #eee;
-    text-transform: lowercase;
+    text-transform: uppercase;
     text-decoration: wavy;
     transition: .5s linear;
 }
@@ -360,7 +354,9 @@ section{
 
 .routes .box-container .box .content h3{
     font-size: 2.5rem;
+    text-transform: uppercase;
     color: var(--black);
+   
 }
 
 .routes .box-container .box .content p{
@@ -372,13 +368,14 @@ section{
 
 .routes .box-container .box .content .btn{
     color: var(--main-color);
-    font-size: 150%;
+    background-color: #04aa6d;
+    font-size: 180%;
+    width: 100%;
+    opacity: 0.9;
+    border: none;
+    padding: 16px 20px;
 }
 
-.routes .load-more{
-    text-align: center;
-    margin-top: 2rem;
-}
 
 
 
@@ -428,19 +425,80 @@ section{
 .booking .book-form .flex .inputBox span{
     font-size: 1.5rem;
     color: var(--white);
-
 }
+
+
+
 
 .booking .book-form .btn{
     margin-top: 2rem;
     border-radius: 45%;
+    font-size: 180%;
+    width: 30%;
+    background-color: #04aa6d;
 }
+
+.about{
+    background-color: #777;
+}
+
+
+.about .content span{
+    text-align: center;
+    font-size: 3vw;
+    
+}
+
+.about .content h3{
+    font-size: 20px;
+    color: var(--white);
+    line-height: 1;
+    text-shadow: var(--text-shadow);
+    padding: 1rem 0;
+    animation:fadeIn .2s linear backwards .4s;
+}
+
+
 
 
 
 
 
 .footer{
- 
-    background-color:var(--black);
+    background-color: #a28a68cc;
+    background-size: cover;
+    background-position: center;
+    
+   
+
 }
+
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 3rem;
+}
+
+.footer .box-container .box h3{
+    color: var(--black);
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.footer .box-container .box a{
+    color: var(--white);
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+    display: block;
+}
+
+.footer .box-container .box a i{
+    color: var(--main-color);
+    padding-right: .5rem;
+    transition: .2s linear;
+}
+
+.footer .box-container .box a:hover i{
+    padding-right: 2rem;
+}
+
