@@ -27,8 +27,6 @@
 
       <nav class="navbar">
             <a href="home.php">home</a> 
-            <a href="routes.php">routes</a> 
-            <a href="about.php">about</a> 
             <a href="book.php">book</a> 
       </nav>
 
@@ -43,61 +41,11 @@
 
 <div class="bg-img">
 
-<div class="content">
-      <h3><br>Looking for a comfortable ride?</br>Book your ticket with us!</h3>
-</div>
-
-<form action="/action_page.php"
-      class="container">
-            <h1>SignUp</h1>
-
-      <label for="firstname">
-            <b>firstname</b>
-      </label>
-      <input type="text"
-            placeholder="Enter firstname"
-            name="firstname" required>
-
-      <label for="lastname">
-            <b>lastname</b>
-      </label>
-      <input type="text"
-            placeholder="Enter lastname"
-            name="lastname" required>
-
-      <label for="email">
-            <b>Email</b>
-      </label>
-      <input type="text"
-            placeholder="Enter Email"
-            name="email" required>
-
-      <label for="psw">
-            <b>Password</b>
-      </label>
-      <input type="password"
-            placeholder="Enter Password"
-            name="psw" required>
-
-      <button type="submit"
-            class="btn">Login
-      </button>
-
-</form>
-
-
-
-
-
-
-
-
+      <div class="content">
+            <h3><br>Looking for a comfortable ride?</br>Book your ticket with us!</h3>
+      </div>
 
 </div>
-
-
-
-
 
 <!-- home section ends -->
 
@@ -178,8 +126,6 @@
     <div class="box">
       <h3>quick links</h3>
       <a href="home.php"> <i class="fas fa-angle-right"></i> home</a> 
-      <a href="routes.php"> <i class="fas fa-angle-right"></i>routes</a> 
-      <a href="about.php"> <i class="fas fa-angle-right"></i>about</a> 
       <a href="book.php"> <i class="fas fa-angle-right"></i>book</a> 
      
     </div>
@@ -208,24 +154,9 @@
 
 <!-- footer section ends -->
 
-
-
-
-
-
-
 <!-- swiper js link -->
-<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
-
-<!-- custom js file link -->
-
-<script src="js/script.js"></script>
-
-
-
-
-
-    
-</body>
+  
+      </body>
 </html>

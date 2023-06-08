@@ -1,3 +1,6 @@
+/* creates a connection betwwen the input collected from the form in book.php stores the data in marcopolo_db under the book_form table */
+
+
 <?php
 
     $connection = mysqli_connect('localhost','root','','marcopolo_db');
