@@ -73,7 +73,6 @@ section{
 
 
 
-
 .header{
    
     position: sticky;
@@ -112,10 +111,6 @@ section{
 .home{
     padding: 0;
 }
-
-
-
-
 
 
 .home .slide{
@@ -299,7 +294,6 @@ section{
 
 
 
-
 .routes{
     background: var(--main-color);
 
@@ -376,11 +370,6 @@ section{
     padding: 16px 20px;
 }
 
-
-
-
- 
-
 .booking .book-form{
     padding: 2rem;
     background: var(--main-color);
@@ -438,32 +427,7 @@ section{
     background-color: #04aa6d;
 }
 
-.about{
-    background-color: #777;
-}
-
-
-.about .content span{
-    text-align: center;
-    font-size: 3vw;
-    
-}
-
-.about .content h3{
-    font-size: 20px;
-    color: var(--white);
-    line-height: 1;
-    text-shadow: var(--text-shadow);
-    padding: 1rem 0;
-    animation:fadeIn .2s linear backwards .4s;
-}
-
-
-
-
-
-
-
+/*styling the footer section*/
 .footer{
     background-color: #a28a68cc;
     background-size: cover;
